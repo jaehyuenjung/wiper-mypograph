@@ -1,0 +1,24 @@
+@import "_reset";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+html,
+body,
+.app-container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.app-container {
+    background-color: #1265aa;
+}
+
+canvas {
+    font-family: "Open Sans", sans-serif;
+    touch-action: none;
+}
